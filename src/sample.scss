@@ -1,0 +1,8 @@
+.error:hover {
+  background-color: #fee;
+}
+
+.error--serious {
+  @extend .error;
+  border-width: 3px;
+}
